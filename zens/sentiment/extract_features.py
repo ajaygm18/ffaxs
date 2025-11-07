@@ -1,3 +1,4 @@
+import tensorflow as tf
 # coding=utf-8
 # Copyright 2018 The Google AI Language Team Authors.
 #
@@ -25,7 +26,6 @@ import re
 
 import modeling
 import tokenization
-import tensorflow as tf
 
 flags = tf.flags
 

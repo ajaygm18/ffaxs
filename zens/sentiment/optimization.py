@@ -1,3 +1,4 @@
+import tensorflow as tf
 # coding=utf-8
 # Copyright 2018 The Google AI Language Team Authors.
 #
@@ -19,7 +20,6 @@ from __future__ import division
 from __future__ import print_function
 
 import re
-import tensorflow as tf
 
 
 def create_optimizer(loss, init_lr, num_train_steps, num_warmup_steps, use_tpu):

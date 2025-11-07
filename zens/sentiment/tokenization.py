@@ -1,3 +1,4 @@
+import tensorflow as tf
 # coding=utf-8
 # Copyright 2018 The Google AI Language Team Authors.
 #
@@ -22,7 +23,6 @@ import collections
 import re
 import unicodedata
 import six
-import tensorflow as tf
 
 
 def validate_case_matches_checkpoint(do_lower_case, init_checkpoint):

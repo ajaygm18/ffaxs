@@ -1,3 +1,4 @@
+import tensorflow as tf
 # coding=utf-8
 # Copyright 2018 The Google AI Language Team Authors.
 #
@@ -24,7 +25,6 @@ import json
 import math
 import re
 import six
-import tensorflow as tf
 
 
 class BertConfig(object):

@@ -1,3 +1,4 @@
+import tensorflow as tf
 # coding=utf-8
 # Copyright 2018 The Google AI Language Team Authors.
 #
@@ -20,7 +21,6 @@ from __future__ import print_function
 
 import collections
 import random
-import tensorflow as tf
 import tokenization
 
 flags = tf.flags
