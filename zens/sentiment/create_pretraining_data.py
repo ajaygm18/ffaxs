@@ -18,9 +18,9 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
+import tensorflow as tf
 import collections
 import random
-import tensorflow as tf
 import tokenization
 
 flags = tf.flags

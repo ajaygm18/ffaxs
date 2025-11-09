@@ -18,11 +18,11 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
+import tensorflow as tf
 import collections
 import re
 import unicodedata
 import six
-import tensorflow as tf
 
 
 def validate_case_matches_checkpoint(do_lower_case, init_checkpoint):

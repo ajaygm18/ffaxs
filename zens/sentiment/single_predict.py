@@ -18,13 +18,13 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
+import tensorflow as tf
 import collections
 import csv
 import os
 import modeling
 import optimization
 import tokenization
-import tensorflow as tf
 import pandas as pd
 
 flags = tf.flags

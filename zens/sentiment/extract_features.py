@@ -18,6 +18,7 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
+import tensorflow as tf
 import codecs
 import collections
 import json
@@ -25,7 +26,6 @@ import re
 
 import modeling
 import tokenization
-import tensorflow as tf
 
 flags = tf.flags
 
